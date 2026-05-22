@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Responsive Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Hannah Mani</span></h1>
+            <p>
+                Creative Frontend Developer passionate about building
+                modern, responsive and beautiful web applications.
+            </p>
+            <div class="hero-buttons">
+                <button>Hire Me</button>
+                <button class="outline-btn">Download CV</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                alt="Developer Image">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                alt="Coding">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web developer with knowledge in HTML5,
+                CSS3, JavaScript, Responsive Design, Flexbox and CSS Grid.
+                I love creating attractive and interactive websites.
+            </p>
+            <div class="about-cards">
+                <div class="card">
+                    <h3>2+</h3>
+                    <p>Years Learning</p>
+                </div>
+                <div class="card">
+                    <h3>15+</h3>
+                    <p>Projects Built</p>
+                </div>
+                <div class="card">
+                    <h3>100%</h3>
+                    <p>Responsive Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="React">
+                <h3>Responsive Design</h3>
+            </div>
+        </div>
+    </section>
+<section class="projects" id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+                alt="Project">
+            <div class="project-content">
+                <h3>Weather Dashboard</h3>
+                <p>
+                    Real-time weather app using API integration and JavaScript.
+                </p>
+                <a href="https://github.com/yourusername/weather-dashboard"
+                    target="_blank">
+                    <button>View Project</button>
+                </a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+                alt="Project">
+            <div class="project-content">
+                <h3>Portfolio Website</h3>
+                <p>
+                    Responsive personal portfolio using Grid and Flexbox.
+                </p>
+                <a href="https://github.com/yourusername/portfolio-website"
+                    target="_blank">
+                    <button>View Project</button>
+                </a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                alt="Project">
+            <div class="project-content">
+                <h3>To-Do Application</h3>
+                <p>
+                    Dynamic task manager with local storage functionality.
+                </p>
+                <a href="https://github.com/yourusername/todo-app"
+                    target="_blank">
+                    <button>View Project</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>© 2026 Advanced Responsive Portfolio | Designed by Hannah Mani</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
